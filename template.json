@@ -14,13 +14,13 @@
       "eslint-plugin-jsx-a11y": "^6.4.1",
       "eslint-plugin-react-hooks": "^4.2.0",
       "husky": "^4.3.0",
-    "lint-staged": "^10.5.0",
+      "lint-staged": "^10.5.0",
       "prettier": "^2.1.2",
       "typescript": "^4.0.5",
       "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+      "test:staged": "cross-env CI=true react-scripts test --findRelatedTests"
     }
-  },
-  "scripts":{
-    "test:staged": "cross-env CI=true react-scripts test --findRelatedTests"
   }
 }
